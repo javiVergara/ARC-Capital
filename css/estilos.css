@@ -88,6 +88,7 @@ body{
 .titulo{
     font-size: 60px;
     margin-bottom: 15px;
+    
 
 }
 
@@ -102,35 +103,49 @@ body{
 .subtitulo{
     text-align: center;
     font-weight: 300;
-    color: #5023b9;
+    color: #C0C0C0;
     margin-bottom: 40px;
     font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+   
 }
 
-.contenedor-servicio{
-    display:  flex;
+.contenedor-servicio {
+    text-align: center;
+    font-weight: 300;
+    color: #5023b9;
+    margin-bottom: 40px;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
 }
 
 .contenedor-servicio img{
+    position: top;
     width: 40%;
     border: 2px solid black;
+    
+
 }
 
 .checklist-servicio{
     width: 45%;
+    margin-left: center;
+    
 }
 
 .service{
     margin-bottom: 20px;
-
+    transform: translate(60%);
+    color: #C0C0C0;
+    font-size: 20px;
+    background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
 }
 
 .n-service{
     margin-bottom: 7px;
     color: #5023b9;
+    
 }
 
 .number{
@@ -204,24 +219,77 @@ body{
 }
 
 .experts{
-    display: flex;
+    
+    display: block;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
- 
+    
+    color: #C0C0C0;
+   
+    
 }
 
+/*
 .cont-expert {
-    width: 40%;
+    width: 50%;
     text-align: center;
     margin-bottom: 20px;
-} 
-.cont-expert img {
-    width: 80%;
-    display: block;
-    margin: auto;
+    
+} */
+
+.cont-expert1 {
+    width:20%;
+    text-align: center;
+    margin-left: 10%;
+    float: left;
+    h
     
 } 
+.cont-expert1 img {
+    width: 100%;
+    display: block;
+    margin: auto;
+    float: center;   
+    
+} 
+
+.cont-expert2 {
+    width: 20%;
+    text-align: center;
+   margin-left: 10%;
+    float: left;
+    
+    
+    
+    
+} 
+.cont-expert2 img {
+    width: 100%;
+    display: block;
+     margin: auto;
+    float: center;   
+    
+} 
+
+.cont-expert3 {
+    width: 20%;
+    text-align: center;
+  /*  margin-bottom: 20px;*/
+    float: left;
+    margin-left: 10%;
+   
+    
+} 
+.cont-expert3 img {
+    width: 85%;
+    display: block;
+    margin: auto;
+    float:  center;   
+    
+} 
+
+
 
 .n-expert{
     display:  inline-block;
@@ -290,7 +358,7 @@ footer{
     max-width: 1200px;
     margin: 0 auto;
     height: 2px;
-    background: #fff;
+    background: #c0c0c0;
     margin-bottom: 60px;
 
 }
@@ -375,8 +443,17 @@ footer{
      }
      .social-media-icon{
          width: 100%;
+         padding-bottom: 1px;
      }
      .contact-us{
          width: 90%;
+         
      }
+     .social-media i{
+        margin-left: 10px;
+    }
+     .footer-content{
+        justify-content: center;
+    
+    }
  }
